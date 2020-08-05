@@ -17,7 +17,7 @@ attr_accessor :roster, :grade, :name
   
   def grade(grade)
     @roster[grade]
-     end  
+  end  
 
 
 
