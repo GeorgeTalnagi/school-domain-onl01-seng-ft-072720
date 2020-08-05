@@ -9,6 +9,7 @@ attr_accessor :roster, :grade, :name
   end 
  
   def add_student(name, grade)
+    #if roster does not include grade, make it
     if !@roster.include? (grade)
       @roster[grade] = []
     end 
@@ -19,6 +20,7 @@ attr_accessor :roster, :grade, :name
     @roster[grade]
   end  
 
+  def 
 
 
 end 
