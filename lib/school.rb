@@ -10,7 +10,7 @@ attr_accessor :roster, :grade, :name
  
   def add_student(name, grade)
      
-    grade.each do |names|
+    name.each do |names|
     @roster[grade] = [names]
     
     end
