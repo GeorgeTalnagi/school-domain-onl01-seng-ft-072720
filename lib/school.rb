@@ -22,8 +22,8 @@ attr_accessor :roster, :grade, :name
 
   def sort
     @roster.each do |key|
-      binding.pry
-      [key[0]].sort
+
+      @roster[key[0]].sort
     end 
   end 
 
