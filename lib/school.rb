@@ -23,7 +23,7 @@ attr_accessor :roster, :grade, :name
   def sort
     @roster.each do |key|
       binding.pry
-      [key].sort
+      [key].to_s.sort
     end 
   end 
 
