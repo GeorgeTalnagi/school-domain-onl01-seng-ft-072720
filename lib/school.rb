@@ -22,8 +22,8 @@ attr_accessor :roster, :grade, :name
 
   def sort
     @roster.each do |key, value|
-    value.sort
-    end 
+    @roster[key] = value.sort 
+    end
   end 
 
 end 
