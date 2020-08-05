@@ -21,13 +21,10 @@ attr_accessor :roster, :grade, :name
   end  
 
   def sort
-    
-    @roster.sort 
-  
-    
-  
+    @roster.each do |key, value|
+      
+    end 
   end 
-
 
 end 
 
