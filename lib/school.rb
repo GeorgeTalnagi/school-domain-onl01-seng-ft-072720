@@ -9,7 +9,6 @@ attr_accessor :roster, :grade, :name
   end 
  
   def add_student(name, grade)
-    @roster = []
     @roster[grade] << @name
   end 
   
@@ -20,3 +19,4 @@ attr_accessor :roster, :grade, :name
 
 
 end 
+
