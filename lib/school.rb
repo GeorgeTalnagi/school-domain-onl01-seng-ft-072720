@@ -9,9 +9,10 @@ attr_accessor :roster, :grade, :name
   end 
  
   def add_student(name, grade)
-  if !@roster.include? (grade)
-    @roster[grade] = [name]
+    if !@roster.include? (grade)
+      @roster[grade] = []
     end 
+    @roster[grade] << name
   end
   def grade(grade)
     @roster = []  
