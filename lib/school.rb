@@ -22,6 +22,7 @@ attr_accessor :roster, :grade, :name
 
   def sort
     @roster.each do |grade, names|
+      #Calling the grades in roster and setting them to the new sorted list 
     @roster[grade] = names.sort 
     end
   end 
